@@ -55,9 +55,9 @@ jobs:
         run: |
           npm run test:ci
 
-      - name: bulid
+      - name: build
         run: |
-          npm run bulid
+          npm run build
           cp package.json dist/
 
       - name: Upload Artifact
