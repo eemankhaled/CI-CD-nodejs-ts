@@ -117,7 +117,7 @@ jobs:
           key: ${{  secrets.SSH_KEY}}
           port: 22
           source: dist/
-          target: App
+          target: app
 
       - name: multiple command
         uses: appleboy/ssh-action@v1.0.3
